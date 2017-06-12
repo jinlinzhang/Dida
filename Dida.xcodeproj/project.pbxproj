@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D152D0A1E9F253E00D4E25A /* EditProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D152D091E9F253E00D4E25A /* EditProViewController.swift */; };
+		769933DBA80BF322ED2EAA17 /* Pods_DidaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F952CAF21F4DA7D36C767D /* Pods_DidaTests.framework */; };
+		8AFAB3E2D98A6FD6AC05DBE9 /* Pods_Dida.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7A5F03CFDE7471F1390C53 /* Pods_Dida.framework */; };
+		AF034ABE1E9BF6BF0066ABE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF034ABD1E9BF6BF0066ABE8 /* AppDelegate.swift */; };
+		AF034AC01E9BF6BF0066ABE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF034ABF1E9BF6BF0066ABE8 /* ViewController.swift */; };
+		AF034AC31E9BF6BF0066ABE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF034AC11E9BF6BF0066ABE8 /* Main.storyboard */; };
+		AF034AC61E9BF6BF0066ABE8 /* Dida.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF034AC41E9BF6BF0066ABE8 /* Dida.xcdatamodeld */; };
+		AF034AC81E9BF6BF0066ABE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF034AC71E9BF6BF0066ABE8 /* Assets.xcassets */; };
+		AF034ACB1E9BF6BF0066ABE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF034AC91E9BF6BF0066ABE8 /* LaunchScreen.storyboard */; };
+		AF034AD61E9BF6BF0066ABE8 /* DidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF034AD51E9BF6BF0066ABE8 /* DidaTests.swift */; };
+		AF034AE11E9BF6BF0066ABE8 /* DidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF034AE01E9BF6BF0066ABE8 /* DidaUITests.swift */; };
+		AF034AFB1E9DC1940066ABE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF034AFA1E9DC1940066ABE8 /* GoogleService-Info.plist */; };
+		AF034AFD1E9DC43C0066ABE8 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF034AFC1E9DC43C0066ABE8 /* LoginPage.swift */; };
+		AF034AFF1E9DC5510066ABE8 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF034AFE1E9DC5510066ABE8 /* SignUp.swift */; };
+		AF2C67D71E9F329F00CBE922 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C67D51E9F329F00CBE922 /* MovieCell.swift */; };
+		AF2C67D81E9F329F00CBE922 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2C67D61E9F329F00CBE922 /* MovieCell.xib */; };
+		AF3AA7B31EA52B1500A4741D /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3AA7B21EA52B1500A4741D /* EditProfile.swift */; };
+		AF3AA7F21EA5378C00A4741D /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3AA7F11EA5378C00A4741D /* PickerVC.swift */; };
+		AF63A1561EA05AEF007E7160 /* postController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF63A1551EA05AEF007E7160 /* postController.swift */; };
+		AFC475601EAAEFCA00D4491D /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4755F1EAAEFCA00D4491D /* Like.swift */; };
+		AFC4756A1EAB0C0700D4491D /* Res.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC475691EAB0C0700D4491D /* Res.swift */; };
+		AFE851C11E9F14C600680DD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE851C01E9F14C600680DD1 /* User.swift */; };
+		AFE851C71E9F208D00680DD1 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE851C61E9F208D00680DD1 /* DetailCell.swift */; };
+		E06C662E42D259404F2156FE /* Pods_DidaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCCEBC042C1EFE71E540C4F /* Pods_DidaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF034AD21E9BF6BF0066ABE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF034AB21E9BF6BF0066ABE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF034AB91E9BF6BF0066ABE8;
+			remoteInfo = Dida;
+		};
+		AF034ADD1E9BF6BF0066ABE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF034AB21E9BF6BF0066ABE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF034AB91E9BF6BF0066ABE8;
+			remoteInfo = Dida;
+		};
+		AF2C67CB1E9F26C900CBE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0CDED9B0BA8C3655BDF1E5DBA5CC979;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		AF2C67CD1E9F26C900CBE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7BD8758280DE468ED556C66437F12BA5;
+			remoteInfo = GTMSessionFetcher;
+		};
+		AF2C67CF1E9F26C900CBE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ECDDEDCFD7F3FFD90A88DEDEB307B11;
+			remoteInfo = "Pods-Dida";
+		};
+		AF2C67D11E9F26C900CBE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D741B887CDBCD05BFC407269A9E6D70;
+			remoteInfo = "Pods-DidaTests";
+		};
+		AF2C67D31E9F26C900CBE922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3C17B321E0EE8625FECE231B7AE2D01;
+			remoteInfo = "Pods-DidaUITests";
+		};
+		AF3AA7FF1EA5C57800A4741D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 11100E09C1A17DD56FCF7D137A62B511;
+			remoteInfo = BrightFutures;
+		};
+		AF3AA8011EA5C57800A4741D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 847CD3B1241B514ACF03A6A6AA805BE3;
+			remoteInfo = Result;
+		};
+		AF3AA8031EA5C57800A4741D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 74EB4CACA8E88843BE5D0EA643DCFBEC;
+			remoteInfo = YelpAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E76CC22F9549AEE5C60F234 /* Pods-DidaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DidaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DidaTests/Pods-DidaTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A7A5F03CFDE7471F1390C53 /* Pods_Dida.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dida.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D37358F743692E56E26692 /* Pods-DidaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DidaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DidaUITests/Pods-DidaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCCEBC042C1EFE71E540C4F /* Pods_DidaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DidaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D152D091E9F253E00D4E25A /* EditProViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProViewController.swift; sourceTree = "<group>"; };
+		6B40C6F781F708FEF588EAAD /* Pods-DidaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DidaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DidaTests/Pods-DidaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EC4EAF75BE4A9F71D44898A /* Pods-DidaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DidaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DidaUITests/Pods-DidaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75F952CAF21F4DA7D36C767D /* Pods_DidaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DidaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813E07977462D60DC9A400B4 /* Pods-Dida.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dida.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dida/Pods-Dida.release.xcconfig"; sourceTree = "<group>"; };
+		A33DDB71A29C1319D15C38C2 /* Pods-Dida.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dida.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dida/Pods-Dida.debug.xcconfig"; sourceTree = "<group>"; };
+		AF034ABA1E9BF6BF0066ABE8 /* Dida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF034ABD1E9BF6BF0066ABE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF034ABF1E9BF6BF0066ABE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF034AC21E9BF6BF0066ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF034AC51E9BF6BF0066ABE8 /* Dida.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dida.xcdatamodel; sourceTree = "<group>"; };
+		AF034AC71E9BF6BF0066ABE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF034ACA1E9BF6BF0066ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF034ACC1E9BF6BF0066ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF034AD11E9BF6BF0066ABE8 /* DidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF034AD51E9BF6BF0066ABE8 /* DidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidaTests.swift; sourceTree = "<group>"; };
+		AF034AD71E9BF6BF0066ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF034ADC1E9BF6BF0066ABE8 /* DidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF034AE01E9BF6BF0066ABE8 /* DidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidaUITests.swift; sourceTree = "<group>"; };
+		AF034AE21E9BF6BF0066ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF034AFA1E9DC1940066ABE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF034AFC1E9DC43C0066ABE8 /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		AF034AFE1E9DC5510066ABE8 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		AF2C67D51E9F329F00CBE922 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = ../../lab4/MovieCell.swift; sourceTree = "<group>"; };
+		AF2C67D61E9F329F00CBE922 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MovieCell.xib; path = ../../lab4/MovieCell.xib; sourceTree = "<group>"; };
+		AF3AA7B21EA52B1500A4741D /* EditProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditProfile.swift; path = ../EditProfile.swift; sourceTree = "<group>"; };
+		AF3AA7F11EA5378C00A4741D /* PickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
+		AF63A1551EA05AEF007E7160 /* postController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = postController.swift; sourceTree = "<group>"; };
+		AFC4755F1EAAEFCA00D4491D /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		AFC475691EAB0C0700D4491D /* Res.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = Res.swift; sourceTree = "<group>"; };
+		AFE851C01E9F14C600680DD1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AFE851C61E9F208D00680DD1 /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF034AB71E9BF6BF0066ABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFAB3E2D98A6FD6AC05DBE9 /* Pods_Dida.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF034ACE1E9BF6BF0066ABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769933DBA80BF322ED2EAA17 /* Pods_DidaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF034AD91E9BF6BF0066ABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06C662E42D259404F2156FE /* Pods_DidaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884FD89DCFAD66BA95AC9828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7A5F03CFDE7471F1390C53 /* Pods_Dida.framework */,
+				75F952CAF21F4DA7D36C767D /* Pods_DidaTests.framework */,
+				2CCCEBC042C1EFE71E540C4F /* Pods_DidaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF034AB11E9BF6BF0066ABE8 = {
+			isa = PBXGroup;
+			children = (
+				AF3AA7F11EA5378C00A4741D /* PickerVC.swift */,
+				AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */,
+				AF034ABC1E9BF6BF0066ABE8 /* Dida */,
+				AF034AD41E9BF6BF0066ABE8 /* DidaTests */,
+				AF034ADF1E9BF6BF0066ABE8 /* DidaUITests */,
+				AF034ABB1E9BF6BF0066ABE8 /* Products */,
+				CDE5A1D2E92A39ADCA3D91F8 /* Pods */,
+				884FD89DCFAD66BA95AC9828 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF034ABB1E9BF6BF0066ABE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF034ABA1E9BF6BF0066ABE8 /* Dida.app */,
+				AF034AD11E9BF6BF0066ABE8 /* DidaTests.xctest */,
+				AF034ADC1E9BF6BF0066ABE8 /* DidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF034ABC1E9BF6BF0066ABE8 /* Dida */ = {
+			isa = PBXGroup;
+			children = (
+				AF3AA7B21EA52B1500A4741D /* EditProfile.swift */,
+				AF034ABD1E9BF6BF0066ABE8 /* AppDelegate.swift */,
+				AF034ABF1E9BF6BF0066ABE8 /* ViewController.swift */,
+				AF034AC11E9BF6BF0066ABE8 /* Main.storyboard */,
+				AFC475691EAB0C0700D4491D /* Res.swift */,
+				AFC4755F1EAAEFCA00D4491D /* Like.swift */,
+				AF63A1551EA05AEF007E7160 /* postController.swift */,
+				AFE851C61E9F208D00680DD1 /* DetailCell.swift */,
+				AFE851C01E9F14C600680DD1 /* User.swift */,
+				AF2C67D51E9F329F00CBE922 /* MovieCell.swift */,
+				AF2C67D61E9F329F00CBE922 /* MovieCell.xib */,
+				AF034AFE1E9DC5510066ABE8 /* SignUp.swift */,
+				AF034AFC1E9DC43C0066ABE8 /* LoginPage.swift */,
+				AF034AC71E9BF6BF0066ABE8 /* Assets.xcassets */,
+				AF034AC91E9BF6BF0066ABE8 /* LaunchScreen.storyboard */,
+				AF034AFA1E9DC1940066ABE8 /* GoogleService-Info.plist */,
+				AF034ACC1E9BF6BF0066ABE8 /* Info.plist */,
+				AF034AC41E9BF6BF0066ABE8 /* Dida.xcdatamodeld */,
+			);
+			path = Dida;
+			sourceTree = "<group>";
+		};
+		AF034AD41E9BF6BF0066ABE8 /* DidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF034AD51E9BF6BF0066ABE8 /* DidaTests.swift */,
+				AF034AD71E9BF6BF0066ABE8 /* Info.plist */,
+			);
+			path = DidaTests;
+			sourceTree = "<group>";
+		};
+		AF034ADF1E9BF6BF0066ABE8 /* DidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF034AE01E9BF6BF0066ABE8 /* DidaUITests.swift */,
+				AF034AE21E9BF6BF0066ABE8 /* Info.plist */,
+			);
+			path = DidaUITests;
+			sourceTree = "<group>";
+		};
+		AF2C67C41E9F26C900CBE922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3AA8001EA5C57800A4741D /* BrightFutures.framework */,
+				AF2C67CC1E9F26C900CBE922 /* GoogleToolboxForMac.framework */,
+				AF2C67CE1E9F26C900CBE922 /* GTMSessionFetcher.framework */,
+				AF2C67D01E9F26C900CBE922 /* Pods_Dida.framework */,
+				AF2C67D21E9F26C900CBE922 /* Pods_DidaTests.framework */,
+				AF2C67D41E9F26C900CBE922 /* Pods_DidaUITests.framework */,
+				AF3AA8021EA5C57800A4741D /* Result.framework */,
+				AF3AA8041EA5C57800A4741D /* YelpAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE5A1D2E92A39ADCA3D91F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33DDB71A29C1319D15C38C2 /* Pods-Dida.debug.xcconfig */,
+				813E07977462D60DC9A400B4 /* Pods-Dida.release.xcconfig */,
+				6B40C6F781F708FEF588EAAD /* Pods-DidaTests.debug.xcconfig */,
+				0E76CC22F9549AEE5C60F234 /* Pods-DidaTests.release.xcconfig */,
+				25D37358F743692E56E26692 /* Pods-DidaUITests.debug.xcconfig */,
+				6EC4EAF75BE4A9F71D44898A /* Pods-DidaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF034AB91E9BF6BF0066ABE8 /* Dida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF034AE51E9BF6BF0066ABE8 /* Build configuration list for PBXNativeTarget "Dida" */;
+			buildPhases = (
+				A72BCAFE59EC37243B56E5E2 /* [CP] Check Pods Manifest.lock */,
+				AF034AB61E9BF6BF0066ABE8 /* Sources */,
+				AF034AB71E9BF6BF0066ABE8 /* Frameworks */,
+				AF034AB81E9BF6BF0066ABE8 /* Resources */,
+				69BD866739772B1DFECF86BD /* [CP] Embed Pods Frameworks */,
+				CFAD2EBFA8C03D37DE01D0A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dida;
+			productName = Dida;
+			productReference = AF034ABA1E9BF6BF0066ABE8 /* Dida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF034AD01E9BF6BF0066ABE8 /* DidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF034AE81E9BF6BF0066ABE8 /* Build configuration list for PBXNativeTarget "DidaTests" */;
+			buildPhases = (
+				5D17BCB7D5C7BC571F42FA09 /* [CP] Check Pods Manifest.lock */,
+				AF034ACD1E9BF6BF0066ABE8 /* Sources */,
+				AF034ACE1E9BF6BF0066ABE8 /* Frameworks */,
+				AF034ACF1E9BF6BF0066ABE8 /* Resources */,
+				2B19E6464AF4CA0E776C3E26 /* [CP] Embed Pods Frameworks */,
+				2633C0D6D3C02EFCAF6AB25F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF034AD31E9BF6BF0066ABE8 /* PBXTargetDependency */,
+			);
+			name = DidaTests;
+			productName = DidaTests;
+			productReference = AF034AD11E9BF6BF0066ABE8 /* DidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF034ADB1E9BF6BF0066ABE8 /* DidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF034AEB1E9BF6BF0066ABE8 /* Build configuration list for PBXNativeTarget "DidaUITests" */;
+			buildPhases = (
+				66BEB57350556A8772DF7487 /* [CP] Check Pods Manifest.lock */,
+				AF034AD81E9BF6BF0066ABE8 /* Sources */,
+				AF034AD91E9BF6BF0066ABE8 /* Frameworks */,
+				AF034ADA1E9BF6BF0066ABE8 /* Resources */,
+				1EC152BD6C0AF683CA2675CE /* [CP] Embed Pods Frameworks */,
+				025D7473672F2A30412DF256 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF034ADE1E9BF6BF0066ABE8 /* PBXTargetDependency */,
+			);
+			name = DidaUITests;
+			productName = DidaUITests;
+			productReference = AF034ADC1E9BF6BF0066ABE8 /* DidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF034AB21E9BF6BF0066ABE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					AF034AB91E9BF6BF0066ABE8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = C2BRE45S44;
+						ProvisioningStyle = Automatic;
+					};
+					AF034AD01E9BF6BF0066ABE8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF034AB91E9BF6BF0066ABE8;
+					};
+					AF034ADB1E9BF6BF0066ABE8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF034AB91E9BF6BF0066ABE8;
+					};
+				};
+			};
+			buildConfigurationList = AF034AB51E9BF6BF0066ABE8 /* Build configuration list for PBXProject "Dida" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF034AB11E9BF6BF0066ABE8;
+			productRefGroup = AF034ABB1E9BF6BF0066ABE8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AF2C67C41E9F26C900CBE922 /* Products */;
+					ProjectRef = AF2C67C31E9F26C900CBE922 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AF034AB91E9BF6BF0066ABE8 /* Dida */,
+				AF034AD01E9BF6BF0066ABE8 /* DidaTests */,
+				AF034ADB1E9BF6BF0066ABE8 /* DidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AF2C67CC1E9F26C900CBE922 /* GoogleToolboxForMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleToolboxForMac.framework;
+			remoteRef = AF2C67CB1E9F26C900CBE922 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF2C67CE1E9F26C900CBE922 /* GTMSessionFetcher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcher.framework;
+			remoteRef = AF2C67CD1E9F26C900CBE922 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF2C67D01E9F26C900CBE922 /* Pods_Dida.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Dida.framework;
+			remoteRef = AF2C67CF1E9F26C900CBE922 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF2C67D21E9F26C900CBE922 /* Pods_DidaTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_DidaTests.framework;
+			remoteRef = AF2C67D11E9F26C900CBE922 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF2C67D41E9F26C900CBE922 /* Pods_DidaUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_DidaUITests.framework;
+			remoteRef = AF2C67D31E9F26C900CBE922 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF3AA8001EA5C57800A4741D /* BrightFutures.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BrightFutures.framework;
+			remoteRef = AF3AA7FF1EA5C57800A4741D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF3AA8021EA5C57800A4741D /* Result.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Result.framework;
+			remoteRef = AF3AA8011EA5C57800A4741D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF3AA8041EA5C57800A4741D /* YelpAPI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YelpAPI.framework;
+			remoteRef = AF3AA8031EA5C57800A4741D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF034AB81E9BF6BF0066ABE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF034ACB1E9BF6BF0066ABE8 /* LaunchScreen.storyboard in Resources */,
+				AF034AFB1E9DC1940066ABE8 /* GoogleService-Info.plist in Resources */,
+				AF034AC81E9BF6BF0066ABE8 /* Assets.xcassets in Resources */,
+				AF034AC31E9BF6BF0066ABE8 /* Main.storyboard in Resources */,
+				AF2C67D81E9F329F00CBE922 /* MovieCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF034ACF1E9BF6BF0066ABE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF034ADA1E9BF6BF0066ABE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025D7473672F2A30412DF256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DidaUITests/Pods-DidaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EC152BD6C0AF683CA2675CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DidaUITests/Pods-DidaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2633C0D6D3C02EFCAF6AB25F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DidaTests/Pods-DidaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B19E6464AF4CA0E776C3E26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DidaTests/Pods-DidaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D17BCB7D5C7BC571F42FA09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66BEB57350556A8772DF7487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69BD866739772B1DFECF86BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dida/Pods-Dida-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72BCAFE59EC37243B56E5E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAD2EBFA8C03D37DE01D0A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dida/Pods-Dida-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF034AB61E9BF6BF0066ABE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3AA7F21EA5378C00A4741D /* PickerVC.swift in Sources */,
+				AF034AFD1E9DC43C0066ABE8 /* LoginPage.swift in Sources */,
+				AF63A1561EA05AEF007E7160 /* postController.swift in Sources */,
+				AF3AA7B31EA52B1500A4741D /* EditProfile.swift in Sources */,
+				AFC475601EAAEFCA00D4491D /* Like.swift in Sources */,
+				AF034AC01E9BF6BF0066ABE8 /* ViewController.swift in Sources */,
+				AF2C67D71E9F329F00CBE922 /* MovieCell.swift in Sources */,
+				AFE851C11E9F14C600680DD1 /* User.swift in Sources */,
+				AF034AC61E9BF6BF0066ABE8 /* Dida.xcdatamodeld in Sources */,
+				2D152D0A1E9F253E00D4E25A /* EditProViewController.swift in Sources */,
+				AFC4756A1EAB0C0700D4491D /* Res.swift in Sources */,
+				AF034ABE1E9BF6BF0066ABE8 /* AppDelegate.swift in Sources */,
+				AFE851C71E9F208D00680DD1 /* DetailCell.swift in Sources */,
+				AF034AFF1E9DC5510066ABE8 /* SignUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF034ACD1E9BF6BF0066ABE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF034AD61E9BF6BF0066ABE8 /* DidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF034AD81E9BF6BF0066ABE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF034AE11E9BF6BF0066ABE8 /* DidaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF034AD31E9BF6BF0066ABE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF034AB91E9BF6BF0066ABE8 /* Dida */;
+			targetProxy = AF034AD21E9BF6BF0066ABE8 /* PBXContainerItemProxy */;
+		};
+		AF034ADE1E9BF6BF0066ABE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF034AB91E9BF6BF0066ABE8 /* Dida */;
+			targetProxy = AF034ADD1E9BF6BF0066ABE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF034AC11E9BF6BF0066ABE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF034AC21E9BF6BF0066ABE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF034AC91E9BF6BF0066ABE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF034ACA1E9BF6BF0066ABE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF034AE31E9BF6BF0066ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF034AE41E9BF6BF0066ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF034AE61E9BF6BF0066ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33DDB71A29C1319D15C38C2 /* Pods-Dida.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2BRE45S44;
+				INFOPLIST_FILE = Dida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.Dida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF034AE71E9BF6BF0066ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813E07977462D60DC9A400B4 /* Pods-Dida.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2BRE45S44;
+				INFOPLIST_FILE = Dida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.Dida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF034AE91E9BF6BF0066ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B40C6F781F708FEF588EAAD /* Pods-DidaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DidaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.DidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dida.app/Dida";
+			};
+			name = Debug;
+		};
+		AF034AEA1E9BF6BF0066ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E76CC22F9549AEE5C60F234 /* Pods-DidaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DidaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.DidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dida.app/Dida";
+			};
+			name = Release;
+		};
+		AF034AEC1E9BF6BF0066ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D37358F743692E56E26692 /* Pods-DidaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DidaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.DidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dida;
+			};
+			name = Debug;
+		};
+		AF034AED1E9BF6BF0066ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC4EAF75BE4A9F71D44898A /* Pods-DidaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DidaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.DidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF034AB51E9BF6BF0066ABE8 /* Build configuration list for PBXProject "Dida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF034AE31E9BF6BF0066ABE8 /* Debug */,
+				AF034AE41E9BF6BF0066ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF034AE51E9BF6BF0066ABE8 /* Build configuration list for PBXNativeTarget "Dida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF034AE61E9BF6BF0066ABE8 /* Debug */,
+				AF034AE71E9BF6BF0066ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF034AE81E9BF6BF0066ABE8 /* Build configuration list for PBXNativeTarget "DidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF034AE91E9BF6BF0066ABE8 /* Debug */,
+				AF034AEA1E9BF6BF0066ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF034AEB1E9BF6BF0066ABE8 /* Build configuration list for PBXNativeTarget "DidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF034AEC1E9BF6BF0066ABE8 /* Debug */,
+				AF034AED1E9BF6BF0066ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF034AC41E9BF6BF0066ABE8 /* Dida.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF034AC51E9BF6BF0066ABE8 /* Dida.xcdatamodel */,
+			);
+			currentVersion = AF034AC51E9BF6BF0066ABE8 /* Dida.xcdatamodel */;
+			path = Dida.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF034AB21E9BF6BF0066ABE8 /* Project object */;
+}
